@@ -1,27 +1,24 @@
 # Public Service Accessibility Audit
 
-## Project Overview
+## Project Structure
 
-This project contains an accessibility audit of the CPGRAMS public service website.
+- client/ - Frontend application
+- server/ - Backend application
+- docs/ - Audit report and screenshots
+- tests/ - Testing files
 
-The website was tested using:
+## Local Setup
 
-- Google Chrome Lighthouse
-- Keyboard-only navigation
-- Manual accessibility checks
+1. Clone the repository.
+2. Open the project in VS Code.
+3. Review the audit report in docs/audit-report.md.
 
-The project also provides a maintainable full-stack project foundation.
+## First Feature
 
----
+The first feature will be an accessible public grievance form with frontend validation and a backend API.
 
-# Project Architecture
+## Accessibility Audit
 
-```text
-public-service-accessibility-audit/
-├── client/
-├── server/
-├── docs/
-│   ├── screenshots/
-│   └── audit-report.md
-├── tests/
-└── README.md
+The CPGRAMS website was tested using Lighthouse and keyboard navigation.
+
+The audit report and screenshots are available in the docs folder.
